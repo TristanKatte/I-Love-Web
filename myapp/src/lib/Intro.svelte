@@ -25,7 +25,7 @@
   font-size: 5.0rem;
   font-weight: 400;
   letter-spacing: 35px;
-  animation: moveInLeft 5s ease-out;
+  animation: moveInLeft 3.5s ease-out;
 }
 
 .main-heading-secondary {
@@ -36,7 +36,7 @@
   text-align: center;
   letter-spacing: 31px;
   color: teal;
-  animation: moveInRight 5s ease-out;
+  animation: moveInRight 3.5s ease-out;
 }
 
 @keyframes moveInLeft {
