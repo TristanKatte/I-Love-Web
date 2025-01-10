@@ -24,7 +24,8 @@
   display: block;
   font-size: 5.0rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 25px;
+  font-family: "Inconsolata", sans-serif;
   animation: moveInLeft 3.5s ease-out;
 }
 
@@ -35,6 +36,7 @@
   font-weight: bold;
   text-align: center;
   letter-spacing: 31px;
+  font-family: "Nunito", sans-serif;
   color: teal;
   animation: moveInRight 3.5s ease-out;
 }
