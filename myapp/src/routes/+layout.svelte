@@ -25,7 +25,7 @@
         height: 100%;
         max-width: 1440px;
         display: grid;
-        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto 1fr auto;
         margin-inline: auto;
         padding-inline: var(--size-7);
     }
