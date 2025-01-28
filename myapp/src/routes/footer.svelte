@@ -1,7 +1,7 @@
 
 
 <footer>
-    <p>{config.title} &copy {new Date().getFullYear()} </p>
+    <p>Hello world!</p>
 </footer>
 
 <style>
