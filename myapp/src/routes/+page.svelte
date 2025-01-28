@@ -1,10 +1,2 @@
-<script>
-
-    import Intropart from "$lib/Intro.svelte";
-</script>
-
-
-<main>
-<Intropart />
-
-</main>
+<h1>Hello and welcome to my site!</h1>
+<a href="/about">About my site</a>
