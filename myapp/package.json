@@ -20,6 +20,7 @@
 		"@fontsource-variable/jetbrains-mono": "^5.1.2",
 		"@fontsource-variable/manrope": "^5.1.1",
 		"lucide": "^0.474.0",
-		"open-props": "^1.7.10"
+		"open-props": "^1.7.10",
+		"shiki": "^2.1.0"
 	}
 }

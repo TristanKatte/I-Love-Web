@@ -1,7 +1,7 @@
 ---
 title: Second post
 description: Second post.
-date: '2025-30-1'
+date: '2025-01-26'
 categories: 
 - sveltekit
 - svelte

@@ -1,7 +1,7 @@
 ---
 title: First post
 description: First post.
-date: '2025-28-1'
+date: '2025-01-28'
 categories: 
 - sveltekit
 - svelte
@@ -10,10 +10,10 @@ published: true
 
 ## Markdown
 
-Hello friends 👋
+Hey friends! 👋
 
 ```ts
 function greet(name: string) {
-    console.log(`Hey ${name}! 👋`)
+	console.log(`Hey ${name}! 👋`)
 }
 ```
