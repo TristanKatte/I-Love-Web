@@ -1,19 +1,24 @@
 <script lang="ts">
     import Header from './header.svelte'
     import Footer from './footer.svelte'
+    import PageTransition from './transition.svelte'
 
     import 'open-props/style'
     import 'open-props/normalize'
     import 'open-props/buttons'
 
     import '../app.css'
+
+    let { children, data } = $props()
 </script>
 
 <div class="layout">
     <Header />
 
     <main>
-        <slot />
+        <PageTransition url={data.url}>
+			{@render children?.()}
+		</PageTransition>
     </main>
 
     <Footer />
