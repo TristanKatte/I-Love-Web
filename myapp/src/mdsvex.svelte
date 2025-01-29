@@ -8,3 +8,5 @@
 </script>
 
 {@render props.children?.()}
+
+<slot />

@@ -22,8 +22,7 @@ const mdsvexOptions = {
 			return `{@html \`${html}\` }`
 		}
 	},
-	remarkPlugins: [[remarkToc, { tight: true }]],
-	rehypePlugins: [rehypeSlug]
+
 
 }
 
