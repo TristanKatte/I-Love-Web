@@ -9,4 +9,3 @@
 
 {@render props.children?.()}
 
-<slot />
