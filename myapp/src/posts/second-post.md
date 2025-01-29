@@ -23,3 +23,4 @@ Media inside the **static** folder is served from `/`.
 ## Counter
 
 <Counter />
+

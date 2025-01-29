@@ -23,7 +23,8 @@ const mdsvexOptions = {
 		}
 	},
 
-
+	remarkPlugins: [[remarkToc, { tight: true }]],
+	rehypePlugins: [rehypeSlug]
 }
 
 /** @type {import('@sveltejs/kit').Config} */
