@@ -19,7 +19,8 @@
             <a href="/rss.xml" target="_blank">RSS</a>
         </li>
     </ul>
-  <button>toggle</button>
+ <Toggle />
+  
 </nav>
 
 <style>

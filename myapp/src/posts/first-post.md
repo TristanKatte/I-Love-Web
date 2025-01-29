@@ -8,6 +8,8 @@ categories:
 published: true
 ---
 
+## Table of contents
+
 ## Markdown
 
 Hey friends! 👋
