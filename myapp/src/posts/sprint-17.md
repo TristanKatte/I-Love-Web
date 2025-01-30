@@ -1,5 +1,5 @@
 ---
-title: Your Tribe for Life
+title: User Needs
 description: Hier documenteer ik wat ik heb geleerd in sprint 17.
 date: '2024-12-02'
 categories:
