@@ -1,7 +1,7 @@
 ---
 title: Release Candidate
 description: Hier documenteer ik wat ik heb geleerd in sprint 18.
-date: '2024-01-06'
+date: '2025-01-06'
 categories:
   - Semester 3
   - Sprint 18
