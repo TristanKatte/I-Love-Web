@@ -10,9 +10,7 @@ status: true
 value: 1
 ---
 
-<script>
-    import ProximalChart from "$lib/assets/image.png"
-</script>
+
 
 ## Getting started with Directus and Sveltekit
 In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
@@ -39,7 +37,7 @@ Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of
 dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Over het algemeen bestaat dit begrip uit 3 zones.
 Deze zones zal ik toelichten aan de hand van deze afbeelding:
 <br>
-<img alt="The Zone of Proximal Development" src={ProximalChart} />
+
 The Zone of Proximal Development
 
 Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
