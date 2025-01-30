@@ -3,7 +3,7 @@
 </script>
 
 <button on:click={toggleTheme} aria-label="Toggle theme">
-	{#if theme.current === 'light'}
+	{#if theme.current === 'dark'}
 		<div>
 			<span>Light</span>
 		</div>
