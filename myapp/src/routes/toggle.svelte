@@ -34,10 +34,6 @@
 		}
 	}
 
-	button:hover {
-		background-image: var(--gradient-6);
-		
-	}
 
 	@media (scripting: enabled) {
 		button > * {

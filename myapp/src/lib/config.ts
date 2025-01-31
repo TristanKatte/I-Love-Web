@@ -1,3 +1,5 @@
-export const title = 'Learning Journal'
+import { dev } from '$app/environment'
+
+export const title = 'Learning Journal. | Digital Garden'
 export const description = 'Sveltekit blog for digital poets and gardeners'
-export const url =  'http://localhost:5173/' 
+export const url = dev ? 'http://localhost:5173/' : 'https://joyofcode.xyz/'
