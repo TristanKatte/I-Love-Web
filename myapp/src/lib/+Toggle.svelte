@@ -30,7 +30,7 @@
 
 
 	button > * {
-			display: flex;
+			display: none;
 			gap: var(--size-2);
 		}
 	
