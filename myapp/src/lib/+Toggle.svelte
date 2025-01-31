@@ -5,7 +5,7 @@
 </script>
 
 <button on:click={toggleTheme} aria-label="Toggle theme">
-	{#if theme.current === 'dark'}
+	{#if $theme === 'dark'}
 		<div in:fly={{ y: 10 }}>
 			<Sun />
 			<span>Light</span>
@@ -19,6 +19,7 @@
 </button>
 
 <style>
+	
 	button {
 		padding: 0;
 		font-weight: inherit;
