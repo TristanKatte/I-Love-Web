@@ -1,15 +1,19 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition'
+	import { Moon, Sun } from 'lucide-svelte'
 	import { theme, toggleTheme } from '$lib/theme'
 </script>
 
 <button on:click={toggleTheme} aria-label="Toggle theme">
 	{#if theme.current === 'dark'}
-		<div>
+		<div in:fly={{ y: 10 }}>
+			<Sun />
 			<span>Light</span>
 		</div>
 	{:else}
-		<div>
-			<span>Toggle</span>
+		<div in:fly={{ y: -10 }}>
+			<Moon />
+			<span>Dark</span>
 		</div>
 	{/if}
 </button>
@@ -33,5 +37,11 @@
 	button:hover {
 		background-image: var(--gradient-6);
 		
+	}
+
+	@media (scripting: enabled) {
+		button > * {
+			display: flex;
+		}
 	}
 </style>
