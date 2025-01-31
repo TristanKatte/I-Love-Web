@@ -20,20 +20,20 @@
 
 <style>
 	button {
-		padding: var(--size-4);
+		padding: 0;
 		font-weight: inherit;
 		background: none;
-		border: 2px solid var(--orange-7);
-		border-radius: 50px;
+		border: none;
 		box-shadow: none;
 		overflow: hidden;
+	}
 
-		> * {
+
+	button > * {
 			display: flex;
 			gap: var(--size-2);
 		}
-	}
-
+	
 
 	@media (scripting: enabled) {
 		button > * {
