@@ -10,6 +10,10 @@ status: true
 value: 1
 ---
 
+<script>
+  import ZPD from '$lib/assets/zone_proximal_development.png'
+</script>
+
 
 
 ## Getting started with Directus and Sveltekit
@@ -26,7 +30,7 @@ cd project-naam
 npm install
 npm run dev
 ````
-Om verder een beetje kennis te maken met Directus en Sveltekit ben ik een aantal tutorials gaan volgen.
+Om verder een beetje kennis te maken met Svelte/Sveltekit, heb ik tijdens de zomervakantie de interactive tutorial op de website van Svelte gevolgd om de basis te leren begrijpen. Tijdens sprint 13 heb ik ook tutorials gevolgd voor het opzetten van Directus bij mijn visitekaartje en heeft dit ook geholpen bij het maken van de squadpage.
 Zo heb ik een tutorial gevolgd genaamd: "Getting started with Directus and Sveltekit". En een tutorial 
 via de website genaamd: "learn.svelte.dev". Dit is een vrij uitgebreide tutorial waar je wel eventjes 
 zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld in kleine onderwerpen. De eerste 2 delen gaan 
@@ -37,8 +41,10 @@ Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of
 dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Over het algemeen bestaat dit begrip uit 3 zones.
 Deze zones zal ik toelichten aan de hand van deze afbeelding:
 <br>
-
+<img alt="Zone of proximal Development" src={ZPD} />
 The Zone of Proximal Development
+<br>
+<br>
 
 Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
 om heel veel uitdaging op te zoeken, maar dat valt meestal buiten je comfort en gaat je dan ook niet lukken zonder hulp. Dan heb je nog
@@ -56,6 +62,8 @@ Met de Auto-Layout functie kun je components maken die je makkelijk kunt hergebr
 
 Als je gebruik gaat maken van Artboards kun je het beste vaste maten gebruiken voor zowel Desktop als voor mobile. Zo wordt aangeraden voor Desktop
 een afmeting van ``1440 x 1028px`` te gebruiken, en voor mobile een afmeting van ``375 x 812px``.
+
+De auto-layout functionaliteit was voor mij nieuw om te leren. Het grootste gedeelte van Figma begreep ik al, omdat het veel weg had van programma's als Adobe Photoshop en Illustrator.
 
 ## Creative Coding met CSS en JS
 Binnen CSS en JS kun je leuke functies maken waarmee je je website speelser maakt. Zo heb je Snap Scrolling in CSS, waarmee je ervoor kan zorgen 
@@ -98,7 +106,7 @@ Bij het toevoegen van een winkelmandje:
 Kortom, een epic is een groots idee, deze verklein je in stories, en deze maak je inschatbaar in userstories.
 
 ## MoSCoW Methode
-**Must haves:** Zijn taken die af moeten voor de deadline.
+**Must haves:** Zijn taken die af moeten voor de deadline en de hoogste prioriteit hebben.
 
 **Should haves:** Zijn taken die eigenlijk wel af moeten, maar niet noodzakelijk zijn.
 
