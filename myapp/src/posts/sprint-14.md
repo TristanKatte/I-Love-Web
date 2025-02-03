@@ -12,9 +12,8 @@ value: 1
 
 
 
-## Getting started with Directus and Sveltekit
-In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
-in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
+## Voorkeur voor een project
+In de eerste week van sprint 14 kregen mijn medestudenten en ik de mogelijkheid om onze voorkeur op te geven voor een opdrachtgever. In mijn geval werd ik ingedeeld bij Drop & Heal. 
 <br>
 
 ````ts
