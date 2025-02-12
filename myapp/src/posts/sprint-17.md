@@ -51,7 +51,15 @@ met als prompt: Geometrische kerst view transition, met over de top toeters en b
 ``WebAudioAPI`` en hoe je deze kan toepassen.
 
 ## Resultaten 
+Hoewel ik begrijp hoe je een scroll driven animation kan maken, is het mij niet gelukt om het te maken met het concept dat ik had gekregen.
+De andere 2 weken van deze sprint is het mij gelukt om view transitions te maken met de prompts die ik daar voor kreeg metConcept roulette.
 
+<a target=_blank href="https://red-pers-jw99-git-crazy-blurs-and-fe342e-tristankattes-projects.vercel.app/">View transition crazy blurs and gradients</a>
+<br>
+<a target=_blank href="https://red-pers-jw99-git-feestelijke-geo-7d299a-tristankattes-projects.vercel.app/">View transition geometrische kerstsfeer</a>
+<br>
+<br>
 
-
+Wat ik deze sprint geleerd heb is hoe je de behoeften van de eindgebruiker makkelijker kan maken door scroll driven animations of view transitions
+toe te voegen om je website meer als 'app' te laten aanvoelen.
 
