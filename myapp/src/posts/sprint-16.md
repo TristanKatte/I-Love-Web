@@ -12,25 +12,12 @@ value: 1
 
 
 
-## Getting started with Directus and Sveltekit
-In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
-in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
+## Component Libraries
+Met behulp van component libraries kan je verschillende structuren toepassen op je project. Het zijn eigenlijk mapjes
+waarin je je componenten neerzet en kan gebruiken en hergebruiken wanneer dat nodig is. 
 <br>
-
-````ts
-npm create svelte@latest project-naam
-// Kies voor een Skeleton Project
-// Zet de Typescript functie uit
-// Kies vervolgens features uit naar keuze (Optioneel)
-cd project-naam
-npm install
-npm run dev
-````
-Om verder een beetje kennis te maken met Directus en Sveltekit ben ik een aantal tutorials gaan volgen.
-Zo heb ik een tutorial gevolgd genaamd: "Getting started with Directus and Sveltekit". En een tutorial 
-via de website genaamd: "learn.svelte.dev". Dit is een vrij uitgebreide tutorial waar je wel eventjes 
-zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld in kleine onderwerpen. De eerste 2 delen gaan 
-over Svelte, en de laatste 2 delen gaan over Sveltekit.
+Het voordeel van component libraries is dat je elementen makkelijk kan hergebruiken, je product krijgt een consistente uitstraling,
+efficientie binnen een project gaat omhoog en snel nieuwe functies kunnen toevoegen terwijl de kwaliteit behouden blijft.
 
 ## The Zone of Proximal Development
 Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of Proximal Development". Dit wil zeggen
