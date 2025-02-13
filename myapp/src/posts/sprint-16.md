@@ -10,95 +10,168 @@ status: true
 value: 1
 ---
 
-
+<script>
+  import TNR from '$lib/assets/the-new-responsive.png'
+</script>
 
 ## Component Libraries
 Met behulp van component libraries kan je verschillende structuren toepassen op je project. Het zijn eigenlijk mapjes
 waarin je je componenten neerzet en kan gebruiken en hergebruiken wanneer dat nodig is. 
 <br>
 Het voordeel van component libraries is dat je elementen makkelijk kan hergebruiken, je product krijgt een consistente uitstraling,
-efficientie binnen een project gaat omhoog en snel nieuwe functies kunnen toevoegen terwijl de kwaliteit behouden blijft.
+efficientie binnen een project gaat omhoog en snel nieuwe functies kunnen toevoegen terwijl de kwaliteit behouden blijft. Ook kan je je eigen library uploaden, zodat het door andere developers gebruikt kan worden.
 
-## The Zone of Proximal Development
-Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of Proximal Development". Dit wil zeggen
-dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Over het algemeen bestaat dit begrip uit 3 zones.
-Deze zones zal ik toelichten aan de hand van deze afbeelding:
+
+
+## Conventies binnen libraries
+- Naamgeving van componenten 
+- Naamgeving van variaties van componenten.
+- Naamgeving van properties binnen componenten.
+<br>
 <br>
 
-The Zone of Proximal Development
+**Metanaamgeving**: Een hiërarchische benadering om het over bepaalde soorten componenten te hebben.
+- Pages: Volledige pagina's of schermen met een specifieke context bestaand uit sections. Bijvoorbeeld de homepage.
 
-Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
-om heel veel uitdaging op te zoeken, maar dat valt meestal buiten je comfort en gaat je dan ook niet lukken zonder hulp. Dan heb je nog
-de zone waar je juist wel in wilt zitten, "The Zone of Proximal Development". Dit is de zone waarbij je wel wat uitdaging hebt om nieuwe 
-dingen te leren, maar dat je er zelf wel uit kan komen.
+- Sections: Secties van een pagina bestaand uit componenten. Bijvoorbeeld een her-banner, een content-secie, een footer.
 
-## Figma 
-Bij de Figma Workshop hebben we kennis gemaakt met verschillende shortcuts en de Auto-Layout functie om werken met Figma makkelijker te maken.
-Ik zal hier een aantal shortcuts laten zien die ik heb geleerd:
-- ``Ctrl + [ of ]`` om objecten naar een laag omhoog of omlaag te plaatsen. Als je hierbij ook nog ``Shift`` gebruikt verplaats je hem direct naar het einde.
-- ``Ctrl + G`` om objecten te groeperen, of ``Ctrl + Shift + G`` om ze niet meer te groeperen.
-- ``Alt`` om gelijkmatig objecten uit te rekken. In zowel hoogte als breedte.
+- Components: Herbruikbare componenten binnen de sections. Bijvoorbeeld knoppen, formulieren, kaarten.
 
-Met de Auto-Layout functie kun je components maken die je makkelijk kunt hergebruiken in ieder bestand. Denk hierbij aan kaartjes, buttons etc. 
+### Lego structuur
+Libraries kan je ook aanzien als Lego steentjes van kleine stukjes, naar de zeer grote stukken.
 
-Als je gebruik gaat maken van Artboards kun je het beste vaste maten gebruiken voor zowel Desktop als voor mobile. Zo wordt aangeraden voor Desktop
-een afmeting van ``1440 x 1028px`` te gebruiken, en voor mobile een afmeting van ``375 x 812px``.
+- Bricks: kleine, niet herbruikbare componenten als icoontjes of een tekstblok.
+- Blocks: Herbruikbare basiscomponenten, zoals knoppen of afbeeldingen.
+- Assemblages: Componenten die zijn gecombineerd tot 1 geheel en die een specifieke functie hebben, zoals een formulier met knop.
+- Constructions: complexe pagina-sections of templates, dashboards.
 
-## Creative Coding met CSS en JS
-Binnen CSS en JS kun je leuke functies maken waarmee je je website speelser maakt. Zo heb je Snap Scrolling in CSS, waarmee je ervoor kan zorgen 
-dat bijvoorbeeld lijsten altijd centraal uitlijnen. Echter moet dit een Progressive Enhancement zijn, en geen Breaking Enhancement. Voeg dit dus 
-alleen toe als je @supports kan gebruiken. Zo herkent de browser of deze feature wordt ondersteund of niet.
+### Atomic Design
 
-Sveltekit probeert het makkelijker te maken om gebruik te maken van verschillende animation-timelines. Zo heb je een timeline genaamd: "Happy Scroller"
-waarmee je dus vloeiende animaties kunt maken met Sveltekit. Deze is dan ook gebruikt in de live-demo van Justus. Om zo een timeline aan de praat te 
-krijgen is er vaak Javascript nodig, zo heb je bijvoorbeeld zulke code nodig om bepaalde properties mee te geven met de animatie:
+- Atoms: De basis bouwblokken van je pagina, HTML elementen.
+- Molecules: een groep atoms bij elkaar.
+- Organism: een groep molecules bij elkaar.
+- Templates: een groep organismen bij elkaar.
+- Pages: een template met specifieke content.
 
-``<svelte:window on:mousemove={followPointer} />``
+### Presenter container
 
-``import { fade } from 'svelte/transition'``
+- Presentational components: Een component die alleen de presentatie regelt. Bijvoorbeeld een afbeelding.
+- Container components: Een component die de inhoud presenteert en de structuur regelt.
+- Compositions: Een groep presentational en container components die pagina-secties vormen.
 
-``transition:fade={{ duration: 250 }}``
+## RAPPE Websites
+Deze sprint heb ik ook een nieuwe term geleerd over hoe je projecten oplevert, namelijk 
+- Responsive
+- Accessible
+- Performance
+- Progressive
+- Enhanced
 
-## Epics, Stories & Userstories
-Een epic is een handige manier om werk te organiseren en een hiërarchie te creeren. Het idee is om werk op te splitsen in 
-opleverbare stukken, zodat grote projecten kunnen worden afgerond en klanten op regelmatige basis waarde krijgen voor hun geld.
+Websites. hierin staan de overdrachtdocumenten en alle code netjes geschreven aan de hand van opgestelde conventies.
 
-Een paar voorbeelden van goede epics zijn:
-- Een nieuwe E-commerce website lanceren voor de kruidvat.
-- De website van het Ministerie van Volksgezondheid verbeteren.
-- De nieuwe website lanceren voor de Hogeschool van Amsterdam.
-- Argumented Reality toevoegen aan de website van de Intertoys.
+## Morphological charts
 
-Uit deze epics, oftewel hele grote taken, komen stories. Hierin wordt de epic opgedeeld in kleinere taken:
-- Een winkelmandje toevoegen.
-- Betalingsmogelijkheden toevoegen.
-- Een klantenserviceportal toevoegen.
+Een methode om onverwachte alternatieven te bedenken voor complexe designs. Dit doe je door een diagram te maken van alle mogelijke componenten die je nodig hebt.
 
-De stories zijn al kleinere taken dan een epic, maar nogsteeds moeilijk in te schatten qua tijd. Daarom splitsen
-we deze stories nogmaals op in userstories zodat we een betere inschatting kunnen maken:
+Je hebt verschillende vragen waar je 3 oplossingen voor moet hebben, denk bijvoorbeeld aan problemen voor in een verhaal: COVID, Verliefdheid of een Botbreuk. Hierbij kun je alle vragen combineren waardoor je onverwachte alternatieven krijgt voor een verhaal.
 
-Bij het toevoegen van een winkelmandje:
-- Als bezoeker, wil ik producten in mijn winkelmandje kunnen doen om overzicht te houden wat ik aanschaf.
-- Als bezoeker, wil ik producten kunnen verwijderen uit mijn winkelmandje als ik iets gevonden heb wat beter past bij wat ik nodig heb.
-- Als bezoeker, wil ik overzicht houden op het uit te geven bedrag zodat ik het gevoel heb in controle te zijn.
+## The new responsive
+Fluid grids, flexible images, and media queries are three technical ingredients for responsive web design, but it also requires a different way of thinking.
 
-Kortom, een epic is een groots idee, deze verklein je in stories, en deze maak je inschatbaar in userstories.
+- Ethan Marcote
+<br>
+<br>
+<img alt="The new responsive chart" src={TNR} />
 
-## MoSCoW Methode
-**Must haves:** Zijn taken die af moeten voor de deadline.
 
-**Should haves:** Zijn taken die eigenlijk wel af moeten, maar niet noodzakelijk zijn.
+## Media query features
+<strong>Level 3:<span>New Features since 21 May 2024</span></strong>
 
-**Could haves:** Zijn taken die af kunnen, mits we tijd over hebben.
+- width
+- height
+- grid
+- scan
+- device-height
+- device-width
+- resolution
+- monochrome
+- orientation
+- aspect-ratio
+- device-aspect-ratio
+- color
+- color-index
 
-**Want to have but will not have this sprint:** Zijn taken die leuk zijn voor een andere keer.
+<strong>Level 4 <span>New Features since 25 December 2021</span></strong>
 
-## Wrap-up: over hoe je projecten oplevert
+- update
+- overflow-block
+- overflow-inline
+- color-gamut
+- pointer 
+- hover
+- any-pointer
+- any-hover
 
-**Refactored Code:** Gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs, een versie release, goede pull request strategie, components, linter installeren.  
+<strong>Level 5<span>New Features since 18 December 2021</span></strong>
 
-**Readme.md:** Kenmerken, live link, screenshot(s?), instructies (uitleg over het gebruik), installatiehandleiding, CMS uitleg, huisstijl (of waar die te vinden is), bijdragen? (hints voor volgende dev-teams), gebruikte bronnen, badges met gebruikte technologie, link naar projectboard, introductie, licentie, changelog (o.b.v. versies).
+- environment-blending
+- dynamic-range
+- inverted-colors
+- nav-controls
+- scripting
+- prefers-color-sheme
+- forced-colors
+- prefers-contrast
+- prefers-reduced-transparency
+- prefers-reduced-motion
+- prefers-reduced-data
 
-**Testen:** Performance, keyboard, screenreader, lighthouse, kleurcontrast, WCAG, html validator, user test, browsertest, devicetest, css validator.
+## Gestalt Principes
+Gestalt principes zijn een set van regels die helpen bij het ontwerpen van een samenhangend design.
 
-**Live zetten:** Github pages, Vercel, Netlify, Onrender.
+**De wet van nabijheid:** <br>
+We groeperen figuren die dicht bij elkaar staan. Onze hersenen vinden dat deze bij elkaar horen.
+
+**De wet van continuïteit:** <br>
+We zien losse figuren die naast elkaar in een lijn of bocht lopen als geheel.
+
+**De wet van gelijkheid:** <br>
+Onze hersenen vinden dat figuren die er hetzelfde uitzien bij elkaar horen.
+
+**De wet van geslotenheid:** <br>
+Onze hersenen maken figuren af waarbij een stukje ontbreekt.
+
+**De wet van overeenkomst:** <br>
+Figuren die in dezelfde richting bewegen geven onze hersenen het gevoel dat ze bij elkaar horen. 
+
+**De wet van voor- en achtergrond:** <br>
+Onze hersenen onderscheiden vormen die op een achtergrond staan als losstaand figuur.
+
+**De wet van symmetrie:** <br>
+Symmetrische figuren geven onze hersenen het idee dat dingen geordend zijn. Het geeft rust.
+
+### Wat is de Law of Proximity?
+Objecten die dicht bij elkaar staan hebben de neiging om gegroepeerd te worden door ons brein. Wat zijn hier de voordelen van?
+- Het helpt de gebruiker om informatie sneller en efficienter te gebruiken
+- Het helpt een relatie te creeëren met objecten in de buurt
+- De objecten hebben vaak dezelfde eigenschappen of functionaliteiten
+
+## State Management
+Toestand van je applicatie of component.
+
+Shared persistent state:
+Je wilt voorkomen dat aanpassingen in je website, voor iedereen aangepast worden.
+
+Non shared persistent state:
+
+Non shared non persistent state:
+
+Non shared semi persistent state:
+
+persistent is of de waarde wordt behouden of niet
+
+Svelte persistent stores
+
+Shared state:
+alle gebruikers delen dezelfde states.
+
