@@ -12,106 +12,47 @@ value: 1
 
 
 
-## Getting started with Directus and Sveltekit
-In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
-in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
+## Getting started with Nextjs
+Tijdens sprint 15 heb ik niet samengewerkt met mijn team, maar heb ik geexperimenteerd met een andere tech-stack. In mijn geval was dit Nextjs.
+Hieronder zie je hoe je een Nextjs project installeert:
 <br>
 
 ````ts
-npm create svelte@latest project-naam
-// Kies voor een Skeleton Project
-// Zet de Typescript functie uit
-// Kies vervolgens features uit naar keuze (Optioneel)
-cd project-naam
-npm install
-npm run dev
+npx create-next-app@latest
+
 ````
-Om verder een beetje kennis te maken met Directus en Sveltekit ben ik een aantal tutorials gaan volgen.
-Zo heb ik een tutorial gevolgd genaamd: "Getting started with Directus and Sveltekit". En een tutorial 
-via de website genaamd: "learn.svelte.dev". Dit is een vrij uitgebreide tutorial waar je wel eventjes 
-zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld in kleine onderwerpen. De eerste 2 delen gaan 
-over Svelte, en de laatste 2 delen gaan over Sveltekit.
+Daarna krijg je een aantal prompts voorgeschoten waar je kan kiezen wat je wel of niet gaat gebruiken:
+````ts
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes
+Would you like to use ESLint? No / Yes
+Would you like to use Tailwind CSS? No / Yes
+Would you like your code inside a `src/` directory? No / Yes
+Would you like to use App Router? (recommended) No / Yes
+Would you like to use Turbopack for `next dev`?  No / Yes
+Would you like to customize the import 
+alias (`@/*` by default)? No / Yes
 
-## The Zone of Proximal Development
-Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of Proximal Development". Dit wil zeggen
-dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Over het algemeen bestaat dit begrip uit 3 zones.
-Deze zones zal ik toelichten aan de hand van deze afbeelding:
-<br>
+What import alias would you like configured? @/*
+````
 
-The Zone of Proximal Development
+## Tech stack
+Een Techstack is een hele set aan tooling om je website aan te bieden. Laynis Library ThreeJS GSAP
+Middleware zijn CMS en API's Op de server draaien frameworks, databases, nodeJS
+Het kiezen van een Tech Stack bevat veel factoren: Platform Project type scalability Performance Team expertize Maintenance Cost
+Jamstack en dan javascript selecteren
 
-Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
-om heel veel uitdaging op te zoeken, maar dat valt meestal buiten je comfort en gaat je dan ook niet lukken zonder hulp. Dan heb je nog
-de zone waar je juist wel in wilt zitten, "The Zone of Proximal Development". Dit is de zone waarbij je wel wat uitdaging hebt om nieuwe 
-dingen te leren, maar dat je er zelf wel uit kan komen.
+## Logica
+Door logica bewijzen we, door intuitie ontdekken we. Logica word gebruikt bij het bouwen van websites, denk maar aan Javascript. Logica is een systeem voor solide agrumentatie, hierbij heb je natuurlijke taal zoals en, of, als dan, niet, voor elke....
 
-## Figma 
-Bij de Figma Workshop hebben we kennis gemaakt met verschillende shortcuts en de Auto-Layout functie om werken met Figma makkelijker te maken.
-Ik zal hier een aantal shortcuts laten zien die ik heb geleerd:
-- ``Ctrl + [ of ]`` om objecten naar een laag omhoog of omlaag te plaatsen. Als je hierbij ook nog ``Shift`` gebruikt verplaats je hem direct naar het einde.
-- ``Ctrl + G`` om objecten te groeperen, of ``Ctrl + Shift + G`` om ze niet meer te groeperen.
-- ``Alt`` om gelijkmatig objecten uit te rekken. In zowel hoogte als breedte.
+### Waarom gebruiken we logica
+In het dagelijks leven gebruik je logica voor heldere redenering, betere besluitvorming en solide onderbouwing.
 
-Met de Auto-Layout functie kun je components maken die je makkelijk kunt hergebruiken in ieder bestand. Denk hierbij aan kaartjes, buttons etc. 
+### Het argumentatieproces in vier stappen?
+- Stap 1: Formuleer een standpunt en selecteer argumenten: Als je onderzoek verricht kan je een standpunt innemen, jij doet onderzoek dus jij kan een standpunt innemen. Binnen dit standpunt kun je kijken welke agrumenten je voor of tegen kunt geven.
 
-Als je gebruik gaat maken van Artboards kun je het beste vaste maten gebruiken voor zowel Desktop als voor mobile. Zo wordt aangeraden voor Desktop
-een afmeting van ``1440 x 1028px`` te gebruiken, en voor mobile een afmeting van ``375 x 812px``.
+- Stap 2: Maak een argumentatieschema Argumenten moeten duidelijk zijn en kloppen. Het standpunt moet aan de hand van argumenten stevig onderbouwd zijn. In een schema krijg je een goed overzicht van je onderbouwing. Enkelvoudige argumentatie Meervoudige argumentatie Nevenschikkende argumentatie Onderschikkende argumentatie
 
-## Creative Coding met CSS en JS
-Binnen CSS en JS kun je leuke functies maken waarmee je je website speelser maakt. Zo heb je Snap Scrolling in CSS, waarmee je ervoor kan zorgen 
-dat bijvoorbeeld lijsten altijd centraal uitlijnen. Echter moet dit een Progressive Enhancement zijn, en geen Breaking Enhancement. Voeg dit dus 
-alleen toe als je @supports kan gebruiken. Zo herkent de browser of deze feature wordt ondersteund of niet.
+- Stap 3: Beoordelen van aanvaardbaarheid Is de argumentatie inhoudelijk correct? Is de argumentatie inhoudeiljk voldoende uitgewerkt? Ondersteund de argumentatie het standpunt?
 
-Sveltekit probeert het makkelijker te maken om gebruik te maken van verschillende animation-timelines. Zo heb je een timeline genaamd: "Happy Scroller"
-waarmee je dus vloeiende animaties kunt maken met Sveltekit. Deze is dan ook gebruikt in de live-demo van Justus. Om zo een timeline aan de praat te 
-krijgen is er vaak Javascript nodig, zo heb je bijvoorbeeld zulke code nodig om bepaalde properties mee te geven met de animatie:
-
-``<svelte:window on:mousemove={followPointer} />``
-
-``import { fade } from 'svelte/transition'``
-
-``transition:fade={{ duration: 250 }}``
-
-## Epics, Stories & Userstories
-Een epic is een handige manier om werk te organiseren en een hiërarchie te creeren. Het idee is om werk op te splitsen in 
-opleverbare stukken, zodat grote projecten kunnen worden afgerond en klanten op regelmatige basis waarde krijgen voor hun geld.
-
-Een paar voorbeelden van goede epics zijn:
-- Een nieuwe E-commerce website lanceren voor de kruidvat.
-- De website van het Ministerie van Volksgezondheid verbeteren.
-- De nieuwe website lanceren voor de Hogeschool van Amsterdam.
-- Argumented Reality toevoegen aan de website van de Intertoys.
-
-Uit deze epics, oftewel hele grote taken, komen stories. Hierin wordt de epic opgedeeld in kleinere taken:
-- Een winkelmandje toevoegen.
-- Betalingsmogelijkheden toevoegen.
-- Een klantenserviceportal toevoegen.
-
-De stories zijn al kleinere taken dan een epic, maar nogsteeds moeilijk in te schatten qua tijd. Daarom splitsen
-we deze stories nogmaals op in userstories zodat we een betere inschatting kunnen maken:
-
-Bij het toevoegen van een winkelmandje:
-- Als bezoeker, wil ik producten in mijn winkelmandje kunnen doen om overzicht te houden wat ik aanschaf.
-- Als bezoeker, wil ik producten kunnen verwijderen uit mijn winkelmandje als ik iets gevonden heb wat beter past bij wat ik nodig heb.
-- Als bezoeker, wil ik overzicht houden op het uit te geven bedrag zodat ik het gevoel heb in controle te zijn.
-
-Kortom, een epic is een groots idee, deze verklein je in stories, en deze maak je inschatbaar in userstories.
-
-## MoSCoW Methode
-**Must haves:** Zijn taken die af moeten voor de deadline.
-
-**Should haves:** Zijn taken die eigenlijk wel af moeten, maar niet noodzakelijk zijn.
-
-**Could haves:** Zijn taken die af kunnen, mits we tijd over hebben.
-
-**Want to have but will not have this sprint:** Zijn taken die leuk zijn voor een andere keer.
-
-## Wrap-up: over hoe je projecten oplevert
-
-**Refactored Code:** Gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs, een versie release, goede pull request strategie, components, linter installeren.  
-
-**Readme.md:** Kenmerken, live link, screenshot(s?), instructies (uitleg over het gebruik), installatiehandleiding, CMS uitleg, huisstijl (of waar die te vinden is), bijdragen? (hints voor volgende dev-teams), gebruikte bronnen, badges met gebruikte technologie, link naar projectboard, introductie, licentie, changelog (o.b.v. versies).
-
-**Testen:** Performance, keyboard, screenreader, lighthouse, kleurcontrast, WCAG, html validator, user test, browsertest, devicetest, css validator.
-
-**Live zetten:** Github pages, Vercel, Netlify, Onrender.
+- Stap 4: Argumentatieschema uitwerken Zet als deze argumenten uit het schema onder elkaar en werk deze uit in een alinea. Deze kun je vervolgens presenteren.
