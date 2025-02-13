@@ -129,25 +129,25 @@ Fluid grids, flexible images, and media queries are three technical ingredients 
 ## Gestalt Principes
 Gestalt principes zijn een set van regels die helpen bij het ontwerpen van een samenhangend design.
 
-**De wet van nabijheid:** <br>
+- **De wet van nabijheid:** <br>
 We groeperen figuren die dicht bij elkaar staan. Onze hersenen vinden dat deze bij elkaar horen.
 
-**De wet van continuïteit:** <br>
+- **De wet van continuïteit:** <br>
 We zien losse figuren die naast elkaar in een lijn of bocht lopen als geheel.
 
-**De wet van gelijkheid:** <br>
+- **De wet van gelijkheid:** <br>
 Onze hersenen vinden dat figuren die er hetzelfde uitzien bij elkaar horen.
 
-**De wet van geslotenheid:** <br>
+- **De wet van geslotenheid:** <br>
 Onze hersenen maken figuren af waarbij een stukje ontbreekt.
 
-**De wet van overeenkomst:** <br>
+- **De wet van overeenkomst:** <br>
 Figuren die in dezelfde richting bewegen geven onze hersenen het gevoel dat ze bij elkaar horen. 
 
-**De wet van voor- en achtergrond:** <br>
+- **De wet van voor- en achtergrond:** <br>
 Onze hersenen onderscheiden vormen die op een achtergrond staan als losstaand figuur.
 
-**De wet van symmetrie:** <br>
+- **De wet van symmetrie:** <br>
 Symmetrische figuren geven onze hersenen het idee dat dingen geordend zijn. Het geeft rust.
 
 ### Wat is de Law of Proximity?
@@ -162,11 +162,11 @@ Toestand van je applicatie of component.
 Shared persistent state:
 Je wilt voorkomen dat aanpassingen in je website, voor iedereen aangepast worden.
 
-Non shared persistent state:
+- Non shared persistent state:
 
-Non shared non persistent state:
+- Non shared non persistent state:
 
-Non shared semi persistent state:
+- Non shared semi persistent state:
 
 persistent is of de waarde wordt behouden of niet
 
