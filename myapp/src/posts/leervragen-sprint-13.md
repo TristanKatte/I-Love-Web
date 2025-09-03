@@ -24,6 +24,7 @@ op de eerste dag heb ik een aantal leervragen geformuleerd en die zijn als volgt
 * Hoe kan ik beter betrokken zijn bij teamzaken binnen een project?
 * Hoe kan ik beschikbare middelen beter besteden in zowel samenwerkingen als individuele projecten?
 * Hoe zorg ik ervoor dat ik ook dingen opschrijf/schets, voordat ik direct begin met coderen in een project? 
+* Hoe zorg ik ervoor dat ik niet te hard van stapel loop aan het begin van een project?
 
 Voor mij is het duidelijk dat ik meer aan mijn soft skills kan werken dan echte "Hard skills".
 
