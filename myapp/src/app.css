@@ -7,26 +7,27 @@ html {
 	--font-monospace-code: 'JetBrains Mono', monospace;
 
 	/* dark */
-	--brand-dark: var(--orange-3);
-	--text-1-dark: var(--gray-3);
-	--text-2-dark: var(--gray-5);
-	--surface-1-dark: var(--gray-12);
-	--surface-2-dark: var(--gray-11);
-	--surface-3-dark: var(--gray-10);
-	--surface-4-dark: var(--gray-9);
-	--background-dark: var(--gradient-8);
-	--border-dark: var(--gray-9);
+	--brand-dark: #00aaff; /* Neon cyan */
+	--text-1-dark: #e8ebff; /* Primary text */
+	--text-2-dark: #9aa0b8; /* Secondary text */
+	--surface-1-dark: #0a0b10; /* Base background */
+	--surface-2-dark: #11121a; /* Elevated surface */
+	--surface-3-dark: #1b1d27; /* Hover/active surface */
+	--surface-4-dark: #242735; /* Higher contrast surface */
+	--background-dark:  linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+	--border-dark: #1f2029; /* Subtle border */
 
 	/* light */
-	--brand-light: var(--orange-10);
-	--text-1-light: var(--gray-8);
-	--text-2-light: var(--gray-7);
-	--surface-1-light: var(--gray-0);
-	--surface-2-light: var(--gray-1);
-	--surface-3-light: var(--gray-2);
-	--surface-4-light: var(--gray-3);
-	--background-light: none;
-	--border-light: var(--gray-4);
+	--brand-light: #0077ff; /* Futuristic blue */
+	--text-1-light: #0a0a0a; /* Primary text */
+	--text-2-light: #4b4b4b; /* Secondary text */
+	--surface-1-light: #ffffff; /* Base surface */
+	--surface-2-light: #f9fafc; /* Slightly tinted */
+	--surface-3-light: #f1f3f9; /* Hover/active surface */
+	--surface-4-light: #e6e9f2; /* Higher elevation */
+	--background-light: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	--border-light: #d6dae3; /* Subtle border */
 }
 
 :root {
