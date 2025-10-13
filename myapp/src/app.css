@@ -26,7 +26,7 @@ html {
 	--surface-2-light: #f9fafc; /* Slightly tinted */
 	--surface-3-light: #f1f3f9; /* Hover/active surface */
 	--surface-4-light: #e6e9f2; /* Higher elevation */
-	--background-light: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	--background-light: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 	--border-light: #d6dae3; /* Subtle border */
 }
 

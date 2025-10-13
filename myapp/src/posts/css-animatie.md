@@ -1,6 +1,6 @@
 ---
 title: CSS 3d animatie in Svelte
-description: Hier documenteer ik de animatie die ik in mijn WLW blog heb toegepast
+description: Hier documenteer ik de animatie die ik in mijn We Love Web blog heb toegepast
 date: '2025-10-12'
 categories:
   - Herkansing Semester 4

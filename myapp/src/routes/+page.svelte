@@ -42,11 +42,11 @@
 	font-weight: 700;
 	letter-spacing: -0.02em;
 	line-height: 1.1;
-	color: var(--text-1);
+	color: var(--text-5);
 	text-shadow:
 		0 0 10px rgba(0, 200, 255, 0.5),
 		0 0 25px rgba(0, 200, 255, 0.25);
-	background: linear-gradient(90deg, var(--brand) 0%, var(--brand-light) 100%);
+background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
